@@ -1,0 +1,53 @@
+*{ 
+    font-family: Helvetica;
+
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: auto;
+    height: 100%;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    margin: 85px 50px 0px 0px;
+    
+}
+
+h1 {
+    font-weight: bold;
+   }
+
+   footer a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+footer nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    margin-right: 50px;
+}
+ header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+ }
+
+ .logotipo {
+    margin: 20px 0px 0px 50px;
+ }
+
