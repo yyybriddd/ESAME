@@ -19,7 +19,7 @@ header a{
 header nav ul{
     list-style-type: none;
     display: flex;
-    gap: 30px;
+    gap: 110px;
     margin: 85px 50px 0px 0px;
     
 }
@@ -48,6 +48,54 @@ footer nav ul{
  }
 
  .logotipo {
-    margin: 20px 0px 0px 50px;
+    width: 90%;
+    margin: 30px 0px 0px 50px;
  }
 
+.dessau {
+    width: 96%;
+
+    margin-top: 90px;
+    
+}
+
+main {
+    margin-left: 50px ;
+}
+
+.storia h1 {
+    margin-bottom: 50px ;
+   
+}
+
+button {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding: 10px 50px; 
+    border-radius: 30px;
+    background: red;
+    color: white;
+    border: 0px;
+}
+
+button:hover {
+    font-weight: bold;
+}
+
+.storia p {
+    line-height: 1,5rem;
+}
+
+div.card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: 40px auto;
+    gap: 35px;
+    width: 90%;
+    height: auto;
+}
+
+.didattica h1 {
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
