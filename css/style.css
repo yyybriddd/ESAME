@@ -7,7 +7,7 @@
 
 img {
     width: auto;
-    height: 100%;
+   height: 100%;
 }
 
 header a{
@@ -30,7 +30,7 @@ h1 {
 
    footer a{
     text-decoration: none;
-    color: black;
+    color: white;
     
 }
 
@@ -86,16 +86,84 @@ button:hover {
     line-height: 1,5rem;
 }
 
-div.card{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    margin: 40px auto;
-    gap: 35px;
-    width: 90%;
-    height: auto;
-}
+
 
 .didattica h1 {
     margin-bottom: 50px;
     margin-top: 40px;
 }
+
+.spaziotesto {
+    margin-bottom: 25px;
+}
+ .didattica {
+    display:flex;
+    margin-top: 100px;
+ }
+
+ div.didattica img {
+    width: 80%;
+    height: auto;
+    float: right;
+    
+ }
+ 
+ .titolodidattica {
+    margin-bottom: 25px;
+    width: 40%;
+    height: auto;
+    margin-top: 50px;
+ }
+
+ footer {
+    align-items: center;
+    
+display: flex;
+justify-content: space-between;
+
+    width: 100%;
+    height: 90px;
+    background: black;
+ }
+
+ footer .logotipobianco {
+    width: 50%;
+
+ }
+
+ .logotipobianco {
+margin-left: 50px;
+ }
+
+ footer nav ul {
+    gap: 100px;
+
+ }
+
+ div.card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 35px;
+    width: 97%;
+    height: auto;
+    
+    
+}
+
+div.card img {
+    width: 100%;
+    height: auto;
+    
+}
+
+section.fondatoricard {
+    margin: 0;
+ 
+    width: 100%;
+    box-sizing: border-box;
+    
+  }
+
+  #titolofondatori {
+    margin-bottom: 50px;
+  }
