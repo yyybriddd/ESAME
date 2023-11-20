@@ -47,6 +47,7 @@ footer nav ul{
     
  }
 
+ 
  .logotipo {
     width: 90%;
     margin: 30px 0px 0px 50px;
@@ -167,3 +168,10 @@ section.fondatoricard {
   #titolofondatori {
     margin-bottom: 50px;
   }
+
+  .titolo {
+    margin-bottom: 25px;
+    width: 40%;
+    height: auto;
+    margin-top: 50px;
+ }
