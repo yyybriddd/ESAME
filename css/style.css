@@ -69,6 +69,14 @@ main {
    
 }
 
+.storiabold {
+    font-weight: bold;
+}
+
+header nav ul li:hover {
+    text-decoration: underline;
+}
+
 button {
     margin-bottom: 30px;
     margin-top: 20px;
@@ -110,8 +118,8 @@ button:hover {
  }
  
  .titolodidattica {
-    margin-bottom: 25px;
-    width: 40%;
+    margin-bottom: 100px;
+    width: 100%;
     height: auto;
     margin-top: 50px;
  }
@@ -175,3 +183,62 @@ section.fondatoricard {
     height: auto;
     margin-top: 50px;
  }
+
+.archive {
+    width: 100%;
+    
+ }
+
+ .chair {
+    width: 40%;
+    height: auto;
+   float: right;
+   display: flex;
+   margin-top: 500px;
+ }
+
+ .materie {
+    width: 40%;
+float: right;
+margin: 50px;
+display: grid;
+margin-bottom: 0px;
+ }
+
+ .spaziotesto {
+    width: 80%;
+ }
+ 
+ .testoricerca {
+    margin-bottom: 100px;
+
+ }
+
+ .contenutoabout {
+    margin-top: 100px;
+ }
+
+ .titoli {
+    margin-bottom: 50px;
+    margin-top: 60px;
+ }
+
+ .spaziocard {
+    margin-bottom: 100px;
+ }
+ 
+ .imgstudenti {
+    width: 96%;
+    height: auto;
+
+}
+
+.testip {
+width: 50%;
+    margin-top: 60px;
+}
+
+.imgallievi {
+    width: 200%;
+    margin-left: 50px;
+}
