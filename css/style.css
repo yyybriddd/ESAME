@@ -69,12 +69,17 @@ main {
    
 }
 
-.storiabold {
+.navfooterbold {
     font-weight: bold;
 }
 
+
 header nav ul li:hover {
     text-decoration: underline;
+}
+
+footer nav ul li:hover {
+    text-decoration: underline white;
 }
 
 button {
@@ -241,4 +246,8 @@ width: 50%;
 .imgallievi {
     width: 200%;
     margin-left: 50px;
+}
+
+.spaziotitolicard {
+    margin-top: 30px;
 }
