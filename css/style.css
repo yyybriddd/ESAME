@@ -34,12 +34,7 @@ h1 {
     
 }
 
-footer nav ul{
-    list-style-type: none;
-    display: flex;
-    gap: 45px;
-    margin-right: 50px;
-}
+
  header {
     display: flex;
     justify-content: space-between;
@@ -110,9 +105,7 @@ button:hover {
     margin-top: 40px;
 }
 
-.spaziotesto {
-    margin-bottom: 25px;
-}
+
  .didattica {
     display:flex;
     margin-top: 100px;
@@ -132,6 +125,13 @@ button:hover {
     margin-top: 50px;
  }
 
+ @media (max-width:600px) {}
+ footer nav ul{
+  list-style-type: none;
+  gap: 50px;
+  margin-right: 30px;
+}
+
  footer {
     align-items: center;
     
@@ -141,12 +141,19 @@ justify-content: space-between;
     width: 100%;
     height: 90px;
     background: black;
+    
  }
 
  footer .logotipobianco {
     width: 50%;
 
  }
+
+ @media (max-width: 600px) {
+  .logotipobianco {
+    display: none;
+  }
+}
 
  .logotipobianco {
 margin-left: 50px;
@@ -189,8 +196,8 @@ section.fondatoricard {
  }
 
 .archive {
-    width: 100%;
-    
+    width: 96%;
+
  }
 
  .chair {
@@ -202,6 +209,24 @@ section.fondatoricard {
     margin-right: 30px;
  }
 
+ @media (max-width: 600px) {
+  .chair {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .materie {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .imgallievi {
+    display: none;
+  }
+}
+
  .materie {
     margin-bottom: 120px;
     width: 30%;
@@ -209,14 +234,17 @@ section.fondatoricard {
     float: right;
     margin-top: 100px;
     margin-right: 60px;
+
  }
 
  .spaziotesto {
     width: 80%;
     line-height: 1.5rem;
-    max-width: 600px;
+    max-width: 520px;
+    margin-bottom: 30px;
  }
  
+
  .testoricerca {
     margin-bottom: 100px;
 
@@ -247,7 +275,7 @@ width: 50%;
 }
 
 .imgallievi {
-    width: 100%;
+    width: 140%;
     margin-left: 50px;
     margin-top: 70px;
 }
@@ -272,6 +300,8 @@ width: 50%;
     float: right;
     margin-top: 130px;
     margin-right: 60px;
+    
+    
 }
 
 .operakandinskj {
@@ -340,7 +370,7 @@ a:hover {
     height: 26px;
     width: 32px;
     position: absolute;
-    top: 49px;
+    top: 55px;
     right: 20px;
     z-index: 2;
     display: flex;
@@ -393,22 +423,25 @@ a:hover {
     opacity: 0;
     cursor: pointer;
   }
+
   
   @media only screen and (max-width: 600px) {
     .checkbox {
       display: block;
+      
     }
-    nav ul {
+    
+   .menu {
+      display: flex;
       gap: 10px;
       flex-direction: column;
       position: absolute;
-      top: 0;
+      top: 60px;
       left: 0;
       opacity: 0;
       background-color: #ffffff;
       width: 100%;
-      height: 100%;
-      justify-content: center;
+      height: 20%;
       text-align: center;
     }
   
@@ -433,6 +466,4 @@ a:hover {
      }
   }
 
-  
-  
   
