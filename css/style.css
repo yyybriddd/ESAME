@@ -231,7 +231,6 @@ section.fondatoricard {
 
 
 
-
  .materie {
     margin-bottom: 120px;
     width: 30%;
@@ -239,6 +238,7 @@ section.fondatoricard {
     float: right;
     margin-top: 100px;
     margin-right: 60px;
+    float: right;
 
  }
 
@@ -261,7 +261,7 @@ section.fondatoricard {
 
  .titoli {
     margin-bottom: 50px;
-    margin-top: 60px;
+    margin-top: 140px;
  }
 
  .spaziocard {
@@ -302,7 +302,7 @@ width: 50%;
     margin-bottom: 120px;
     width: 25%;
     height: auto;
-
+    
     margin-top: 130px;
     margin-right: 60px;
    
