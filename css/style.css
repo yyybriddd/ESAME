@@ -227,23 +227,10 @@ section.fondatoricard {
   }
 }
 
-@media (max-width: 600px) {
-  .operakandinskj {
-    display: none;
-  }
-}
 
-@media (max-width: 600px) {
-  .sediacp {
-    display: none;
-  }
-}
 
-@media (max-width: 600px) {
-  .sediabreuer {
-    display: none;
-  }
-}
+
+
 
  .materie {
     margin-bottom: 120px;
@@ -315,29 +302,47 @@ width: 50%;
     margin-bottom: 120px;
     width: 25%;
     height: auto;
-    float: right;
+
     margin-top: 130px;
     margin-right: 60px;
-    
-    
+   
 }
+
+@media (max-width: 600px) {
+  .sediacp {
+    width: 70%;
+  }
+}
+
 
 .operakandinskj {
     margin-bottom: 120px;
     width: 40%;
     height: auto;
-    float: right;
+    
     margin-top: 130px;
     margin-right: 60px;
+}
+
+@media (max-width: 600px) {
+  .operakandinskj {
+    width: 90%;
+  }
 }
 
 .sediabreuer {
     margin-bottom: 110px;
     width: 40%;
     height: auto;
-    float: right;
+    
     margin-top: 20px;
-    margin-right: px;
+  
+}
+
+@media (max-width: 600px) {
+  .sediabreuer {
+    width: 90%;
+  }
 }
 
 .AEG {
