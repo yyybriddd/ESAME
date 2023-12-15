@@ -227,6 +227,24 @@ section.fondatoricard {
   }
 }
 
+@media (max-width: 600px) {
+  .operakandinskj {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .sediacp {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .sediabreuer {
+    display: none;
+  }
+}
+
  .materie {
     margin-bottom: 120px;
     width: 30%;
