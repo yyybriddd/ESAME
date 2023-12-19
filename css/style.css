@@ -149,7 +149,7 @@ justify-content: space-between;
 
  }
 
- @media (max-width: 600px) {
+ @media (max-width: 1300px) {
   .logotipobianco {
     display: none;
   }
@@ -209,19 +209,19 @@ section.fondatoricard {
     margin-right: 30px;
  }
 
- @media (max-width: 600px) {
+ @media (max-width: 1300px) {
   .chair {
     display: none;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1300px) {
   .materie {
     display: none;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1300px) {
   .imgallievi {
     display: none;
   }
@@ -487,6 +487,18 @@ a:hover {
       padding: 10px 0;
       margin: 0;
      }
+  }
+
+  @media (max-width: 1300px) {
+    .logotipo {
+      display: none;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .logotipo {
+      display: block;
+    }
   }
 
   
